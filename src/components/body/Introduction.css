@@ -1,0 +1,120 @@
+.intro{
+width: 100%;
+display: flex;
+align-items: center;
+background: #ffc244ff;
+justify-content: center;
+flex-direction: column;
+border-bottom-left-radius: 90px;
+border-bottom-right-radius: -40px;
+padding: 30px;
+
+}
+
+.top > img{
+    width: 240px;
+    height: 270px;
+}
+
+.bottom{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.header{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+
+}
+
+
+.header > h1{
+    font-size: 65px;
+}
+
+.header2{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+}
+
+
+.header2 > p{
+    font-size: 18px;
+}
+
+.header3{
+    width : 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.header3  > .icon-input{
+    width: 80%;
+    display: flex;
+    height: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.icon-input > input{
+    width: 80%;
+    border: none;
+    outline: none;
+    padding: 15px;
+    color: gray;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.icon-input > input::placeholder{
+    opacity: 0.6;
+    padding-left: 10px;
+}
+
+.icon-input > .icon-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    background-color: #00a082;
+}
+
+.icon-cont > i {
+    color: white;
+}
+
+.header3-text{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.header3-text > span{
+    font-size: 15px;
+    font-weight: bold;
+    color: #00a082;
+}
+
+.bottom-background{
+    width: 100%;
+    height: auto;
+    margin-left: -150px;
+}
+
+.bottom-background > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

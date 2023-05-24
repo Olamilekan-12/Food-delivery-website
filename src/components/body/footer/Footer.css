@@ -1,0 +1,51 @@
+.footer{
+    margin-top: 30px;
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    bottom: 0;
+    color: white;
+    position: relative;
+    padding: 20px;
+}
+
+.footer > .first{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+}
+
+.links > a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer ;
+}
+
+
+.copy{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.footer-logo > h3{
+    color: #00a082;
+    font-size: 24px;
+}
